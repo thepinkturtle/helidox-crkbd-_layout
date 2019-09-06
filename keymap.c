@@ -57,11 +57,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_RAISE] = LAYOUT( \
   //,-----------------------------------------.                ,-----------------------------------------.
-     KC_TILD, KC_EXLM,KC_AT,KC_HASH,KC_DLR,KC_PERC,              KC_CIRC,KC_AMPR,KC_ASTR,KC_LPRN,KC_RPRN,KC_BSPC,\
+     KC_TILD, KC_EXLM,KC_AT,KC_HASH,KC_DLR,KC_PERC,            KC_CIRC,KC_AMPR,KC_ASTR,KC_LPRN,KC_RPRN,KC_BSPC,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-    KC_LCTL, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                KC_UNDS,KC_EQL,KC_LCBR,KC_RCBR,KC_PIPE,KC_GRV,\
+    KC_LCTL, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                KC_UNDS,KC_MINS,KC_EQL,KC_LCBR,KC_RCBR,KC_NO,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-    KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                KC_MINS,KC_PLUS,KC_LBRC,KC_RBRC,KC_BSLS, KC_NO,\
+    KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                KC_PIPE,KC_PLUS,KC_GRV,KC_LBRC,KC_RBRC,KC_BSLS,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                 KC_LGUI, KC_ENT, RAISE,  LOWER, KC_SPC, KC_RALT \
                               //`--------------------'  `--------------------'
